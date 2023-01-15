@@ -1,0 +1,27 @@
+.topbox{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.countainer{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.box{
+    height: 150px;
+}
+.countainer .box:nth-child(1){
+    background-color: yellow;
+    width: 20%;
+}
+.countainer .box:nth-child(2){
+    width: 79%;
+}
+.bg-orangered{
+    background-color: orangered;
+}
+.bg-aqua{
+    background-color: aqua;
+}
